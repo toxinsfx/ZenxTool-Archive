@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <Windows.h>
 #include <urlmon.h>
 #include <thread>
@@ -67,7 +67,7 @@ void start()
     MoveWindow(console, r.left, r.top, 977, 800, TRUE);
     ShowScrollBar(console, SB_VERT, 0);
     Sleep(1000);
-    for (size_t i = 0; i != 100; i++)
+    for (size_t i = 0; i != 25; i++)
     {
         changetitle();
         Sleep(50);
@@ -314,12 +314,6 @@ int main()
                     
                 }
                 Sleep(100);
-                telegram = checkwebsite("https://web.telegram.org/k/#@", doxname);
-                if (telegram == false)
-                {
-                    
-                }
-                Sleep(100);
                 replit = checkwebsite("https://replit.com/@", doxname);
                 if (replit == false)
                 {
@@ -388,12 +382,6 @@ int main()
                 Sleep(100);
                 soundcloud = checkwebsite("https://soundcloud.com/", doxname);
                 if (soundcloud == false)
-                {
-
-                }
-                Sleep(100);
-                doxbin = checkwebsite("https://doxbin.com/user/", doxname);
-                if (doxbin)
                 {
 
                 }
@@ -881,6 +869,7 @@ int main()
                 system("cls");
                 main();
             }
+          //Paweł Klama hacking services
         default:
             ShowScrollBar(console, SB_VERT, 0);
             system("cls");
@@ -1085,6 +1074,8 @@ int main()
             cout << dye::green("[") << dye::white("*") << dye::green("]") << dye::green(R"( intitle:"webcam 7" inurl:'/gallery.html')") << endl;
             cout << dye::green("[") << dye::white("*") << dye::green("]") << dye::green(R"( intitle:"EvoCam" inurl:"webcam.html")") << endl;
             cout << dye::green("[") << dye::white("*") << dye::green("]") << dye::green(R"( intitle:"active webcam page")") << endl;
+            cout << dye::green("[") << dye::white("*") << dye::green("]") << dye::green(R"( intitle:”Live View/ — AXIS”")") << endl;
+            
             system("pause");
             ShowScrollBar(console, SB_VERT, 0);
             system("cls");
