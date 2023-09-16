@@ -869,7 +869,6 @@ int main()
                 system("cls");
                 main();
             }
-          //Paweł Klama hacking services
         default:
             ShowScrollBar(console, SB_VERT, 0);
             system("cls");
